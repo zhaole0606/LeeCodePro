@@ -1,7 +1,4 @@
-package com.zhao.leecode1.pro2;
-
-import java.util.HashSet;
-import java.util.Set;
+package com.zhao.leecode.pro2;
 
 /**
  * 面试题 16.11. 跳水板

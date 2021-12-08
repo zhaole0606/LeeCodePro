@@ -1,4 +1,4 @@
-package com.zhao.leecode1.pro2;
+package com.zhao.leecode.pro2;
 
 /**
  * 240. 搜索二维矩阵 II
