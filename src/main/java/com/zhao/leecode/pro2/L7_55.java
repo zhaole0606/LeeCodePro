@@ -1,4 +1,4 @@
-package com.zhao.leecode1.pro2;
+package com.zhao.leecode.pro2;
 
 /**
  * 55. 跳跃游戏

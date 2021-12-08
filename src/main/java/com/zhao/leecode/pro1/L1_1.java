@@ -1,4 +1,4 @@
-package com.zhao.leecode1.pro1;
+package com.zhao.leecode.pro1;
 
 
 /**
@@ -10,24 +10,23 @@ package com.zhao.leecode1.pro1;
  */
 
 /**
- * 只能想到穷举 循环判断。
+ * 结题思路：
+ * 1. 使用暴力穷举，双层for循环，注意内存循环要比外层循环起始位置大，从而避免有重复组合。
  */
 public class L1_1 {
-    public static int[] twoSum(int[] nums, int target) {
 
+    public static int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
+            //j  的下标要比i 大，避免有重复组合
+            for (int j = i + 1; j < nums.length; j++) {
                 int first = nums[i];
                 int second = nums[j];
-                if (i == j) {
-                    continue;
-                }
+
                 if (first + second == target) {
                     return new int[]{i, j};
                 }
             }
         }
-
         return null;
     }
 

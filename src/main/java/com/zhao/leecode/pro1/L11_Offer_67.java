@@ -1,4 +1,4 @@
-package com.zhao.leecode1.pro1;
+package com.zhao.leecode.pro1;
 
 /**
  * ERR

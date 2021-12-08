@@ -6,9 +6,9 @@ leecode学习
 
 名称  | 难度|
 | --- |  --- |
-|[1.两数之和]() |  简单|
-|[1108. IP 地址无效化]()|简单|
-|[1108.反转字符串]()|简单|
+|[1.两数之和](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L1_1.java) |  简单|
+|[1108. IP 地址无效化](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L2_1108.java)|简单|
+|[1108.反转字符串](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L3_344.java)|简单|
 |[125. 验证回文串]()|简单|
 |[剑指 Offer 58 - I. 翻转单词顺序]() |简单|
 |[9. 回文数]() |简单|

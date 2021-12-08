@@ -1,4 +1,4 @@
-package com.zhao.leecode1.pro2;
+package com.zhao.leecode.pro2;
 
 /**
  * 面试题 01.08. 零矩阵

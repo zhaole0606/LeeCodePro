@@ -1,4 +1,4 @@
-package com.zhao.leecode1.pro1;
+package com.zhao.leecode.pro1;
 
 /**
  * 剑指 Offer 58 - I. 翻转单词顺序
