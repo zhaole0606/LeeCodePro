@@ -1,30 +1,55 @@
 package com.zhao.leecode.pro1;
 
 /**
- * 剑指 Offer 58 - I. 翻转单词顺序
- * https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/
+ * 125. 验证回文串
+ * https://leetcode-cn.com/problems/valid-palindrome/
  *
  * @Author Le Zhao
  * @Date 2021/11/29 10:44 下午
  */
+
+/**
+ * 结题思路：
+ * 1. 第一次循环将输入值过滤（去除空格，保留数字和字母）第二次循环，跟L3_334思路类似。
+ * 2. 双指针法
+ */
 public class L5_125 {
-    public static String reverseWords(String s) {
-        StringBuffer stringBuffer = new StringBuffer();
-        //单词反转
-        // 单词之间的多个空格按照一个来看
-        //句首，句尾有空格 翻转后过滤
-        String[] strs = s.split(" ");
-        for (int i = strs.length - 1; i >= 0; i--) {
-            if ("".equals(strs[i])) {
+    public static boolean isPalindrome(String s) {
+        String[] strArr = s.split("");
+        StringBuffer content = new StringBuffer();
+        for (int i = 0; i < strArr.length; i++) {
+            //忽略大小写 忽略空格
+            char str = strArr[i].toLowerCase().charAt(0);
+            if (str == ' ') {
                 continue;
             }
-            stringBuffer.append(strs[i]).append(" ");
+            //只考虑字母和数字字符
+            if ((str >= 'a' && str <= 'z') || (str >= '0' && str <= '9')) {
+                content.append(str);
+            }
         }
-        return stringBuffer.toString().trim();
+        String r = content.toString();
+        int lenHalf = r.length() / 2;
+        char[] strChar = r.toCharArray();
+        for (int i = 0; i < lenHalf; i++) {
+            int leftIndex = i;
+            int rightIndex = r.length() - i - 1;
+
+            char a = strChar[leftIndex];
+            char b = strChar[rightIndex];
+
+            if (a != b) {
+                return false;
+            }
+
+            strChar[leftIndex] = b;
+            strChar[rightIndex] = a;
+        }
+        return true;
     }
 
+
     public static void main(String[] args) {
-        String a = reverseWords("");
-        System.out.println(a);
+        System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
     }
 }

@@ -9,7 +9,8 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路：每个字符串循环判断
+ * 结题思路：
+ * 每个字符串循环判断
  */
 public class L8_Offer_05 {
     public static String replaceSpace(String s) {
