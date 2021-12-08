@@ -9,7 +9,8 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路：倒叙判断，并且要验证当前字符下一个字符是否为空
+ * 结题思路：
+ * 倒叙判断，并且要验证当前字符下一个字符是否为空
  */
 public class L7_58 {
     public static int lengthOfLastWord(String s) {

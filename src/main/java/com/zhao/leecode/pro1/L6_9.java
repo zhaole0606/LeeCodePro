@@ -9,7 +9,9 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路： 先获取这个数字的长度，再前后指针分别比对。  每次循环，数字的主体都要变化。
+ * 结题思路：
+ * 1.先获取这个输入数字x的长度，利用循环分别对 第一个数字和最后一个数字比较。每次比较完毕后如果无异常 则减去头尾数更新x本体 继续下次循环
+ * 2.将输入数字变成字符串数组 进行判断。
  */
 public class L6_9 {
     public static boolean isPalindrome(int x) {
@@ -25,11 +27,15 @@ public class L6_9 {
         int pow_nnum = (int) Math.pow(10, len - 1);
 
         while (pow_nnum > 0) {
+            //高位数
             int first = x / pow_nnum;
+            //尾数
             int second = x % 10;
+
             if (first != second) {
                 return false;
             }
+            //每次比较完 减去头和尾
             x = (x - first * pow_nnum) / 10;
             pow_nnum /= 100;
         }
