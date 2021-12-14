@@ -8,4 +8,11 @@ package com.zhao.leecode.linkedlist;
  * @Date 2021/12/10 2:19 下午
  */
 public class L12_160 {
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        return null;
+    }
+
+    public static void main(String[] args) {
+
+    }
 }

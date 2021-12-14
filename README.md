@@ -43,7 +43,7 @@ leecode学习
 |[剑指 Offer 25. 合并两个排序的链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L4_Offer_25.java)|简单||
 |[2. 两数相加](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L5_2.java) |中等||
 |[206. 反转链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L6_206.java) |简单|✔️|
-|[234. 回文链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L7_234.java) |中等||
+|[234. 回文链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L7_234.java) |简单||
 |[328. 奇偶链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L8_328.java)|中等||
 |[25. K 个一组翻转链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L9_25.java)|困难||
 |[剑指 Offer 22. 链表中倒数第k个节点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L10_Offer_22.java)|简单||
