@@ -2,7 +2,7 @@
 
 leecode学习
 
-### 纯编程题类型
+### 编程题类型
 
 名称  | 难度| 经典|
 | --- |  --- | ---|
@@ -22,15 +22,31 @@ leecode学习
 
 名称  | 难度| 经典|
 | --- |  --- |---|
-|[面试题 01.08. 零矩阵]() |  简单||
+|[面试题 01.08. 零矩阵](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro2/L1_01_08.java) |  简单||
 |[剑指 Offer 61. 扑克牌中的顺子]()|中等||
 |[面试题 16.11. 跳水板]()|简单||
 |[面试题 01.05. 一次编辑]()|中等||
 |[面试题 16.15. 珠玑妙算]() |简单||
 |[面试题 16.04. 井字游戏]() |中等||
 |[55. 跳跃游戏]() |中等||
-|[48. 旋转图像]()|中等||
-|[54. 螺旋矩阵]()|中等||
-|[240. 搜索二维矩阵 II]()|中等||
+|[48. 旋转图像]()|中等|✔|
+|[54. 螺旋矩阵]()|中等|✔|
+|[240. 搜索二维矩阵 II]()|中等|✔|
 
+### 链表类型
 
+名称  | 难度| 经典|
+| --- |  --- |---|
+|[203. 移除链表元素](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L1_203.java) | 简单||
+|[876. 链表的中间结点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L2_876.java)|简单||
+|[83. 删除排序链表中的重复元素](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L3_83.java)|简单||
+|[剑指 Offer 25. 合并两个排序的链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L4_Offer_25.java)|简单||
+|[2. 两数相加](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L5_2.java) |中等||
+|[206. 反转链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L6_206.java) |简单|✔️|
+|[234. 回文链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L7_234.java) |简单||
+|[328. 奇偶链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L8_328.java)|中等||
+|[25. K 个一组翻转链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L9_25.java)|困难||
+|[剑指 Offer 22. 链表中倒数第k个节点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L10_Offer_22.java)|简单||
+|[19. 删除链表的倒数第 N 个结点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L11_19.java)|中等||
+|[160. 相交链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L12_160.java) |  简单||
+|[141. 环形链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L13_141.java)|简单||
