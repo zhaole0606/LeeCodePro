@@ -9,6 +9,9 @@ package com.zhao.leecode.linkedlist;
  */
 public class L12_160 {
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode slow = headA;
+        ListNode fa = headB;
+
         return null;
     }
 
