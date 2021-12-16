@@ -10,7 +10,7 @@ package com.zhao.leecode.linkedlist;
  */
 
 /**
- * 解题思路：哨兵解决一切。
+ * 解题思路：引入虚拟头结点。
  */
 public class L1_203 {
 

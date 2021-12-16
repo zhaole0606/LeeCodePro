@@ -14,7 +14,7 @@ package com.zhao.leecode.linkedlist;
  * 还有一点就是。最后一位相加超过10 需要在挂一个节点。
  */
 public class L5_2 {
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public static ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
         int decimal = 0;
         ListNode listNode = new ListNode(0);
         ListNode listNodePoint = listNode;
@@ -40,16 +40,16 @@ public class L5_2 {
         }
 
         if (l1 != null) {
-            calculate(l1, listNodePoint, decimal);
+            calculate1(l1, listNodePoint, decimal);
         }
         if (l2 != null) {
-            calculate(l2, listNodePoint, decimal);
+            calculate1(l2, listNodePoint, decimal);
         }
         return listNode.next;
     }
 
 
-    private static void calculate(ListNode node, ListNode nodePoint, int decimal) {
+    private static void calculate1(ListNode node, ListNode nodePoint, int decimal) {
         while (node != null) {
             int r = node.val + decimal;
             if (r >= 10) {
@@ -65,26 +65,59 @@ public class L5_2 {
                 nodePoint.next = new ListNode(decimal);
             }
         }
-
     }
 
-    public static void main(String[] args) {
-//        ListNode l2 = new ListNode(9, null);
-//        ListNode l3 = new ListNode(9, l2);
-//        ListNode l4 = new ListNode(9, l3);
-//        ListNode l5 = new ListNode(9, l4);
-//        ListNode l6 = new ListNode(9, l5);
-//        ListNode l7 = new ListNode(9, l6);
-//
-//        ListNode l14 = new ListNode(9, null);
-//        ListNode l13 = new ListNode(9, l14);
-//        ListNode l12 = new ListNode(9, l13);
-//        ListNode l11 = new ListNode(9, l12);
-//        addTwoNumbers(l11, l7);
+    /**
+     * 优化版 省去了不少重复判断
+     */
+    public static ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        int carry = 0;
+        ListNode listNode = new ListNode(0);
+        ListNode p1 = l1;
+        ListNode p2 = l2;
+        ListNode tail = listNode;
 
-        ListNode l7 = new ListNode(5, null);
-        ListNode l14 = new ListNode(5, null);
-        addTwoNumbers(l14, l7);
+        while (p1 != null || p2 != null) {
+            int sum = 0;
+            if (p1 != null) {
+                sum += p1.val;
+                p1 = p1.next;
+            }
+            if (p2 != null) {
+                sum += p2.val;
+                p2 = p2.next;
+            }
+            if (carry != 0) {
+                sum += carry;
+            }
+            tail.next = new ListNode(sum % 10);
+            carry = sum / 10;
+            tail = tail.next;
+        }
+        if (carry != 0) {
+            tail.next = new ListNode(carry);
+        }
+        return listNode.next;
+    }
+
+
+    public static void main(String[] args) {
+        ListNode l2 = new ListNode(9, null);
+        ListNode l3 = new ListNode(9, l2);
+        ListNode l4 = new ListNode(9, l3);
+        ListNode l5 = new ListNode(9, l4);
+        ListNode l6 = new ListNode(9, l5);
+        ListNode l7 = new ListNode(9, l6);
+
+        ListNode l14 = new ListNode(9, null);
+        ListNode l13 = new ListNode(9, l14);
+        ListNode l12 = new ListNode(9, l13);
+        ListNode l11 = new ListNode(9, l12);
+        addTwoNumbers2(l11, l7);
+
+//        ListNode l7 = new ListNode(5, null);
+//        ListNode l14 = new ListNode(5, null);
+//        addTwoNumbers1(l14, l7);
 
 
 //        ListNode l2 = new ListNode(3, null);

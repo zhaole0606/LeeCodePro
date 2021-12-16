@@ -10,7 +10,7 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路：
+ * 解题思路：
  * 1. 使用暴力穷举，双层for循环，注意内存循环要比外层循环起始位置大，从而避免有重复组合。
  */
 public class L1_1 {
