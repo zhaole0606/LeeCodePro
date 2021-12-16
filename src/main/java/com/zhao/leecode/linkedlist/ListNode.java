@@ -96,4 +96,32 @@ public class ListNode {
         ListNode l13 = new ListNode(1, l12);
         return l13;
     }
+
+    /**
+     * 偶数回文
+     */
+    public static ListNode listEvent() {
+        ListNode l1 = new ListNode(1, null);
+        ListNode l2 = new ListNode(2, l1);
+        ListNode l3 = new ListNode(3, l2);
+        ListNode l4 = new ListNode(4, l3);
+        ListNode l5 = new ListNode(4, l4);
+        ListNode l6 = new ListNode(3, l5);
+        ListNode l7 = new ListNode(2, l6);
+        ListNode l8 = new ListNode(1, l7);
+        return l8;
+    }
+    /**
+     * 奇数回文
+     */
+    public static ListNode listOdd() {
+        ListNode l1 = new ListNode(1, null);
+        ListNode l2 = new ListNode(2, l1);
+        ListNode l3 = new ListNode(4, l2);
+        ListNode l4 = new ListNode(4, l3);
+        ListNode l5 = new ListNode(3, l4);
+        ListNode l6 = new ListNode(2, l5);
+        ListNode l7 = new ListNode(1, l6);
+        return l7;
+    }
 }

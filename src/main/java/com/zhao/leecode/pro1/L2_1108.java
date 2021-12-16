@@ -9,7 +9,7 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路：
+ * 解题思路：
  * 1. 分割，循环判断，并且替换
  */
 public class L2_1108 {

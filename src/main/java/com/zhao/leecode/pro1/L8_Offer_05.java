@@ -9,7 +9,7 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路：
+ * 解题思路：
  * 每个字符串循环判断
  */
 public class L8_Offer_05 {

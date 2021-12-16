@@ -10,7 +10,7 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路：
+ * 解题思路：
  * 1. 数组分成一半，然后两边向中间集中，并且相互交换元素。
  */
 public class L3_344 {

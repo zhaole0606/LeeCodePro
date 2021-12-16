@@ -10,7 +10,7 @@ package com.zhao.leecode.linkedlist;
  */
 
 /**
- * 结题思路：快慢指针，快指针先循环到 k点，然后再慢指针循环，等到快指针到头的时候。慢指针就是需要删除的节点
+ * 解题思路：快慢指针，快指针先循环到 k点，然后再慢指针循环，等到快指针到头的时候。慢指针就是需要删除的节点
  */
 public class L10_Offer_22 {
     public static ListNode getKthFromEnd(ListNode head, int k) {

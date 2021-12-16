@@ -37,8 +37,8 @@ leecode学习
 
 名称  | 难度| 经典|
 | --- |  --- |---|
-|[203. 移除链表元素](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L1_203.java) | 简单||
-|[876. 链表的中间结点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L2_876.java)|简单||
+|[203. 移除链表元素](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L1_203.java) | 简单|✔|
+|[876. 链表的中间结点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L2_876.java)|简单|✔|
 |[83. 删除排序链表中的重复元素](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L3_83.java)|简单||
 |[剑指 Offer 25. 合并两个排序的链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L4_Offer_25.java)|简单||
 |[2. 两数相加](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L5_2.java) |中等||

@@ -9,7 +9,8 @@ package com.zhao.leecode.linkedlist;
  */
 
 /**
- * 结题思路：快慢指针，一开始快慢指针在同一位置，每次循环fast是2的倍数。唯一需要注意的需要判断fast不能为空。
+ * 解题思路：快慢指针，一开始快慢指针在同一位置，每次循环fast是slow的2的倍，等fast到底后，slow指的就是中间节点。
+ * 唯一需要注意的需要判断fast不能为空。
  */
 public class L2_876 {
 

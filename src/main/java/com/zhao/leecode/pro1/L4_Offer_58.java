@@ -9,7 +9,7 @@ package com.zhao.leecode.pro1;
  */
 
 /**
- * 结题思路：
+ * 解题思路：
  * 1。split之后，进行字符串拼接，手动添加空格。
  * 2. 整个输入进行反转，再将每个单词进行反转 如：abc def->  fed cba -> def abc
  */
