@@ -48,5 +48,5 @@ leecode学习
 |[25. K 个一组翻转链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L9_25.java)|困难||
 |[剑指 Offer 22. 链表中倒数第k个节点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L10_Offer_22.java)|简单||
 |[19. 删除链表的倒数第 N 个结点](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L11_19.java)|中等||
-|[160. 相交链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L12_160.java) |  简单||
-|[141. 环形链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L13_141.java)|简单||
+|[160. 相交链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L12_160.java) |  简单|✔|
+|[141. 环形链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/linkedlist/L13_141.java)|简单|✔|

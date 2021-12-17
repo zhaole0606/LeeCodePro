@@ -10,7 +10,7 @@ package com.zhao.leecode.linkedlist;
  */
 
 /**
- * 解题思路：新建两个链表以及引用， 用来存放原本链表中的奇偶数据，循环完毕后将偶数链表挂在奇数链表的最后。
+ * 解题思路：新建两个链表以及指针， 用来存放原本链表中的奇偶数据，循环完毕后将偶数链表挂在奇数链表的最后。
  */
 public class L8_328 {
     public static ListNode oddEvenList(ListNode head) {
@@ -18,9 +18,9 @@ public class L8_328 {
         ListNode nodePoint = head;
         ListNode odd = new ListNode(1);
         ListNode even = new ListNode(0);
-
         ListNode oddPoint = odd;
         ListNode evenPoint = even;
+
         while (nodePoint != null) {
             if (step % 2 == 0) {
                 //偶数
@@ -35,14 +35,8 @@ public class L8_328 {
             step++;
             nodePoint = nodePoint.next;
         }
-        //(step - 1 )说明是偶数长度，否则是奇数长度。。偶数长度奇数链表需要-1  奇数长度偶数链表-1
-        if ((step - 1) % 2 == 0) {
-            //偶数
-            oddPoint.next = null;
-        } else {
-            //奇数
-            evenPoint.next = null;
-        }
+        oddPoint.next = null;
+        evenPoint.next = null;
         oddPoint.next = even.next;
 
         return odd.next;

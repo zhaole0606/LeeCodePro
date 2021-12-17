@@ -1,7 +1,6 @@
 package com.zhao.leecode.linkedlist;
 
 
-
 /**
  * 25. K 个一组翻转链表
  * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
@@ -25,8 +24,8 @@ public class L9_25 {
         ListNode subPoint = sub;
 
         ListNode listPoint = head;
-        int i = 0;
         while (listPoint != null) {
+            int i = 0;
             //获取小段落链表
             subPoint.next = new ListNode(listPoint.val);
             subPoint = subPoint.next;
@@ -35,7 +34,7 @@ public class L9_25 {
             //获取需要反转的链表
             if (i == k) {
                 //反转
-               ListNode reversal =  reversal(sub);
+                ListNode reversal = reversal(sub);
 
                 //将反转列表赋值给结果链表
                 resPoint.next = reversal;
@@ -51,7 +50,6 @@ public class L9_25 {
                 //子链表置空，重新统计
                 sub = new ListNode(0);
                 subPoint = sub;
-                i = 0;
             }
 
             listPoint = listPoint.next;
