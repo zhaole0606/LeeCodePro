@@ -8,4 +8,8 @@ package com.zhao.leecode.stack;
  * @Date 2021/12/16 9:00 上午
  */
 public class L10_Offer_31 {
+    public boolean validateStackSequences(int[] pushed, int[] popped) {
+
+        return true;
+    }
 }
