@@ -14,7 +14,7 @@ leecode学习
 |6|[9. 回文数](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L6_9.java) |简单|| 2021-12-16|
 |7|[58. 最后一个单词的长度 ](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L7_58.java)|简单|| 2021-12-16|
 |8|[剑指 Offer 05. 替换空格](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L8_Offer_05.java)|简单|| 2021-12-16|
-|9|[剑指 Offer 58 - II. 左旋转字符串](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L9_Offer_58_2.java)|简单||
+|9|[剑指 Offer 58 - II. 左旋转字符串](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L9_Offer_58_2.java)|简单||2021-12-16|
 |10|[26. 删除排序数组中的重复项 ](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L10_26.java)|简单|| 2021-12-16|
 |11|[剑指 Offer 67. 把字符串转换成整数](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/pro1/L11_Offer_67.java)|中等|✔| 2021-12-16|
 
