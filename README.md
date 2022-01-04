@@ -72,16 +72,32 @@ leecode学习
 | 49|[剑指 Offer 59 - II. 队列的最大值](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/stack/L15_Offer_59_2.java) |  中等|||
 | 50|[剑指 Offer 59 - I. 滑动窗口的最大值](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/stack/L16_Offer_59_1.java)|困难|||
 
+### 递归
+
+|序号|名称  | 难度| 经典| 完成时间|
+| --- | --- |  --- |---| --- |
+| 51|[剑指 Offer 10- I. 斐波那契数列](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L1_Offer10_1.java) | 简单| |2021-12-30|
+| 52|[剑指 Offer 10- II. 青蛙跳台阶问题](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L2_Offer10_2.java)|简单| | 2021-12-30|
+| 53|[面试题 08.01. 三步问题](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L3_08_01.java)|简单| | 2021-12-30|
+| 54|[剑指 Offer 06. 从尾到头打印链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L4_Offer_06.java)|简单| | 2022-01-04|
+| 55|[剑指 Offer 24. 反转链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L5_Offer_24.java) |简单| |  2022-01-04|
+| 56|[剑指 Offer 25. 合并两个排序的链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L6_Offer_25.java) |中等| | 2022-01-04|
+| 57|[剑指 Offer 16. 数值的整数次方](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L7_Offer_16.java) |中等| | 2022-01-04|
+| 58|[面试题 08.05. 递归乘法](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L8_08_05.java) |中等| | 2022-01-04|
 
 ### 递归
 
 |序号|名称  | 难度| 经典| 完成时间|
 | --- | --- |  --- |---| --- |
-| 51|[剑指 Offer 10- I. 斐波那契数列](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L1_Offer10_1.java) | 简单|||
-| 52|[剑指 Offer 10- II. 青蛙跳台阶问题](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/stack/L2_Offer10_2.java)|简单|| |
-| 53|[面试题 08.01. 三步问题](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L3_08_01.java)|简单|| |
-| 54|[剑指 Offer 06. 从尾到头打印链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L4_Offer_06.java)|简单|| |
-| 55|[剑指 Offer 24. 反转链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L5_Offer_24.java) |简单| | |
-| 56|[剑指 Offer 25. 合并两个排序的链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L6_Offer_25.java) |中等| | |
-| 57|[剑指 Offer 16. 数值的整数次方](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L7_Offer_16.java) |中等|| |
-| 58|[面试题 08.05. 递归乘法](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/recursion/L8_08_05.java) |中等|| |
+| 59|[面试题 10.01. 合并排序的数组](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L1_10_01.java) | 简单| | |
+| 60|[242. 有效的字母异位词](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L2_242.java)|简单| | |
+| 61|[1502. 判断能否形成等差数列](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L3_1502.java)|简单| |  |
+| 62|[252. 会议室](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L4_252.java)|简单| | |
+| 63|[56. 合并区间](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L5_56.java) |中等| |  |
+| 64|[剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L6_Offer_21.java) |简单| |  |
+| 75|[75. 颜色分类](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L7_75.java) |中等| |  |
+| 66|[147. 对链表进行插入排序](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L8_147.java) |中等| |  |
+| 67|[148. 排序链表](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L9_148.java) |中等| |  |
+| 68|[215. 数组中的第K个最大元素](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L10_215.java) |中等| |  |
+| 69|[面试题 17.14. 最小K个数](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L11_17_14.java) |中等| |  |
+| 70|[剑指 Offer 51. 数组中的逆序对](https://github.com/zhaole0606/LeeCodePro/blob/main/src/main/java/com/zhao/leecode/sorted/L12_Offer_51.java) |困难| |  |
